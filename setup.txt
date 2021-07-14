@@ -1,0 +1,23 @@
+1.  Create a folder that contains all the website files - in this case "dist"
+2.  Run: npm init -y
+3.  Run: npm i gh-pages
+4.  Add "homepage": "https://YOUR GITHUB ACCOUNT NAME.github.io/NAME OF YOUR WEBSITE or NAME OF REPO"
+                    as in - "homepage": "https://rah99.github.io/rah99",
+5.  Replace "test": "blah-blah-blah" under "scripts" with "deploy": "dh-pages -d DIRECTORY NAME in this case 'dist'"
+                    as in - "deploy": "gh-pages -d dist"
+6.  Go to GitHub and make a repo for the project (do not add a readme or check any of the boxes for now and 
+    keep the page the repo was created on open as you will need the commands on the page) - alternatively it can be done directly from VS Code
+7.  You can add a ".gitignore" here or in the repo on GitHub - .gitignore should exclude node modules as in add "node_modules" to the ".gitignore" 
+    or go to https://www.toptal.com/developers/gitignore and generate a gitignore based on languages and IDE
+8.  In the terminal (use gitbash terminal) run: git init
+9.  Run (in the same terminal): git add . (the "." signifies add everything to staging)
+10. Run (in the same terminal): git commit -m 'WHATEVER YOU WANT TO SAY ABOUT THE COMMIT'
+                    as in - git commit -m 'Initial commit'
+11. Go to GitHub and copy the "git branch -M .....", then paste it into the terminal and run it
+12. Go to GitHub and copy the "git remote add origin ......", then paste it into the terminal and run it
+13. Go back to GitHub and copy the "git push -u .....", then paste it into the terminal and run it
+14. The files should now be on GitHub repo - check the £branches" and there should only be a "main" branch
+15. To initialise GB_PAGES go to your working project on your computer and run: npm run deploy, then go back to you GitHub repo and check the branches,
+    there should now be a gh-pages branch
+16. Select the "gh-pages" branch and it will display what is going to be shown on the web. Then go to "Settings" of the repo and scroll down to "GitHub Pages"
+    (if it is not activated click on the link and it will activate) and it will display a web address that you can click on that is your published website
