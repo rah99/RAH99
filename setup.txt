@@ -16,8 +16,9 @@
 11. Go to GitHub and copy the "git branch -M .....", then paste it into the terminal and run it
 12. Go to GitHub and copy the "git remote add origin ......", then paste it into the terminal and run it
 13. Go back to GitHub and copy the "git push -u .....", then paste it into the terminal and run it
-14. The files should now be on GitHub repo - check the £branches" and there should only be a "main" branch
+14. The files should now be on GitHub repo - check the branches" and there should only be a "main" branch
 15. To initialise GB_PAGES go to your working project on your computer and run: npm run deploy, then go back to you GitHub repo and check the branches,
     there should now be a gh-pages branch
 16. Select the "gh-pages" branch and it will display what is going to be shown on the web. Then go to "Settings" of the repo and scroll down to "GitHub Pages"
-    (if it is not activated click on the link and it will activate) and it will display a web address that you can click on that is your published website
+    tab on the left menu bar, click it, and it will display a web address that you can click on that is your published website. You can also setup using your
+    own domain, it is suggested to use CNAME for the aliases as in: make one for www. and "blank". on your DNS control panel of your DNS name host
