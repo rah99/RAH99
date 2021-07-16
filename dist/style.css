@@ -73,8 +73,10 @@ body {
     text-align: justify;
 }
 
-.container li {
+.container ul {
+    list-style-type: none;
     text-align: left;
+    padding-left: 0;
 }
 
 .grid-3 {
