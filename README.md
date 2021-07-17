@@ -10,6 +10,6 @@ Unity 2020.2.1f1
 
 ## Resources and acknowledgements
 
-[DesignerTech, 2019. Unity UI Series - How to add Fonts in TextMeshPro: Experimenting with Font Atlas Sizes. [Online] 
+DesignerTech, 2019. Unity UI Series - How to add Fonts in TextMeshPro: Experimenting with Font Atlas Sizes. [Online] 
 Available at: https://www.youtube.com/watch?v=K64mG0eaHo0&t
-[Accessed 15 12 2020].]
+[Accessed 15 12 2020].
