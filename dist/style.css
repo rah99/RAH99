@@ -112,9 +112,19 @@ body {
 }
 
 footer {
-    padding: 2.2rem;
+    padding: 1.2rem;
 }
 
 footer p {
     margin: 0;
+    padding-bottom: 10px;
+}
+
+footer a {
+    padding: 10px;
+    margin-left: 10px 5px;
+    border-radius: 500px;
+    color: #333;
+    background-color: white;
+    text-decoration: none;
 }
