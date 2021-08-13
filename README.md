@@ -1,2 +1,2 @@
-# Presonal website for Rob Hills
+# Personal website for Rob Hills
 Showcasing academic and programming achievements @ https://rah99.tech
