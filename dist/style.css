@@ -84,6 +84,11 @@ body {
     padding-left: 0;
 }
 
+.cert {
+    width: 50%;
+    padding: 15px 10px 0px;
+}
+
 .grid-3 {
     display: grid;
     grid-gap: 20px;
@@ -94,7 +99,7 @@ body {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-  }
+}
 
 .center {
     text-align: center;
@@ -111,9 +116,9 @@ body {
     color: white;
 }
 
-.tab { 
-    display:inline-block; 
-    margin-left: 23px; 
+.tab {
+    display: inline-block;
+    margin-left: 23px;
 }
 
 footer {
